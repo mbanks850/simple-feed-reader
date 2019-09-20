@@ -26,7 +26,7 @@ namespace SimpleFeedReader.Tests.Services
         public async Task Returns_News_Stories_Given_Valid_Uri()
         {
             // Arrange
-            var feedUrl = "https://azure.microsoft.com/en-us/blog/feed/2";
+            var feedUrl = "https://azure.microsoft.com/en-us/blog/feed/";
 
             // Act
             List<NewsStoryViewModel> result =
